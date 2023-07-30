@@ -28,7 +28,7 @@ Neural Network Characterstics:
 * Input layer neurons: 30
 * Depth: 2
 
-'''
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -216,9 +216,7 @@ public class MarchForward : Agent
     }
 
 }
-
-'''
-
+```
 ### Problems in the current model
 * The mean episodic reward is decreasing with episodes.
 * Mean episodic length, 10 seconds
