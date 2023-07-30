@@ -1,0 +1,29 @@
+{
+    "March Forward": {
+        "checkpoints": [
+            {
+                "steps": 29191,
+                "file_path": "results\\Test2\\March Forward\\March Forward-29191.onnx",
+                "reward": 34.21917808219178,
+                "creation_time": 1687447244.6564748,
+                "auxillary_file_paths": [
+                    "results\\Test2\\March Forward\\March Forward-29191.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 29191,
+            "file_path": "results\\Test2\\March Forward.onnx",
+            "reward": 34.21917808219178,
+            "creation_time": 1687447244.6564748,
+            "auxillary_file_paths": [
+                "results\\Test2\\March Forward\\March Forward-29191.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

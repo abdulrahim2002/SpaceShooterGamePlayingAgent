@@ -1,34 +1,3 @@
-# Game Playing Agent
-The agent is using Proximal Policy Optimization algorithm to train neural network.
-The following is the result after 500,000 training steps.
-
-## Performance
-
-
-
-## !Still under developement! Suggestions are highly appriciated
-
-## Possible upgrades
-
-There are several ideas in my mind to improve the agents performance:
-* Will try soft-actor-critic(SAC).
-* Will try changing neural network parameters, such as depth or input layer.
-* Will try changing hyperparameters. Hyperparameter-tuning.
-
-### Script used to train the agent. 
-
-The reward funciton is:
-    **timeSurvived + 3 * rocksDestroyed + 5 * enemyShipsDestroyed**
-I though the agent would be incentivised to shoot down enemy bullets and rocks.
-
-The observations are all the positions of objects currently in the scene, feeded sequentially
-with a label after each position to differentiate between objects.
-
-Neural Network Characterstics:
-* Input layer neurons: 30
-* Depth: 2
-
-'''
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -216,9 +185,3 @@ public class MarchForward : Agent
     }
 
 }
-
-'''
-
-### Problems in the current model
-* The mean episodic reward is decreasing with episodes.
-* 
