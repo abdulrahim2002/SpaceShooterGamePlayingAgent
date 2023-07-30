@@ -221,4 +221,4 @@ public class MarchForward : Agent
 
 ### Problems in the current model
 * The mean episodic reward is decreasing with episodes.
-* 
+* Mean episodic length, 10 seconds
