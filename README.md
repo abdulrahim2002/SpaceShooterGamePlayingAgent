@@ -4,7 +4,6 @@ The following is the result after 500,000 training steps.
 
 ## Performance
 
-
 https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/assets/89011337/924601a1-162e-402b-8f9e-422cb5c2a164
 
 
