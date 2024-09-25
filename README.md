@@ -22,17 +22,17 @@ https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/assets/89011337/f
 
 The reward funciton is:
 ```
-**timeSurvived + 3 * rocksDestroyed + 5 * enemyShipsDestroyed**
+timeSurvived + ( 3 * rocksDestroyed ) + ( 5 * enemyShipsDestroyed )
 ```
 
-Rational:
-the agent would be incentivised to shoot down enemy bullets and rocks
+Rational: the agent would be incentivised to shoot down enemy bullets and rocks
 
-Input:
-The observations are: positions of objects currently in the scene, feeded sequentially
+Please see [_MarchForward.cs_](https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/blob/main/Assets/MarchForward.cs) for more details
+
+Input observations are, positions of objects currently in the scene, feeded sequentially
 with a label after each position to differentiate between objects
 
-Parameters Used:
+### Parameters Used:
 * Input layer neurons: 30
 * Depth: 2
 
