@@ -14,7 +14,7 @@ https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/assets/89011337/f
 
 ## TODO
 
-* Implement soft-actor-critic(SAC).
+* Implement soft-actor-critic (SAC).
 * Emperically optimize, neural network parameters: depth, input layer
 * Hyperparameter-tuning.
 
