@@ -27,7 +27,7 @@ timeSurvived + ( 3 * rocksDestroyed ) + ( 5 * enemyShipsDestroyed )
 
 Rational: the agent would be incentivised to shoot down enemy bullets and rocks
 
-Please see [_MarchForward.cs_](https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/blob/main/Assets/MarchForward.cs) for more details
+Please see [_this script_](https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/blob/main/Assets/MarchForward.cs) for more details
 
 Input observations are, positions of objects currently in the scene, feeded sequentially
 with a label after each position to differentiate between objects
