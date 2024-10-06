@@ -1,7 +1,7 @@
 # Game Playing Agent
 
-- The agent is trained using [_proximal policy optimization_](https://arxiv.org/abs/1707.06347).
-- The following is the result after 500,000 training steps.
+- The agent is trained using [_proximal policy optimization_](https://arxiv.org/abs/1707.06347)
+- The following is the result after 500,000 training steps
 
 ## Performance
 
