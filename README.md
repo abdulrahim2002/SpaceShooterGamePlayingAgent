@@ -25,7 +25,7 @@ The reward funciton is:
 timeSurvived + ( 3 * rocksDestroyed ) + ( 5 * enemyShipsDestroyed )
 ```
 
-Rational: the agent would be incentivised to shoot down enemy bullets and rocks
+Rational: the agent would be incentivised to shoot down enemy bullets and rocks and miximize its survival time
 
 Please see [_this script_](https://github.com/abdulrahim2002/SpaceShooterGamePlayingAgent/blob/main/Assets/MarchForward.cs) for more details
 
